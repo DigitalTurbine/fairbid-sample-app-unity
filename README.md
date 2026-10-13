@@ -38,7 +38,7 @@ Please, note that this sample app is integrating DT FairBid Unity Plugin through
 
 We provide, for your convenience, our Unity Plugin as an [NPM package](https://www.npmjs.com/package/com.fyber.fairbid.unity). This package can be imported using the [Unity Package Manager](https://docs.unity3d.com/Manual/Packages.html).
 
-To achieve that, a dependency to the DT FairBid Unity Plugin is added in the Package manifest file [here](https://github.com/fyber-engineering/fairbid-sample-app-unity/blob/master/Packages/manifest.json#L12), along with the new entry in `scopedRegistries`, so that the dependency can be resolved.
+To achieve that, a dependency to the DT FairBid Unity Plugin is added in the Package manifest file [here](https://github.com/DigitalTurbine/fairbid-sample-app-unity/blob/master/Packages/manifest.json#L12), along with the new entry in `scopedRegistries`, so that the dependency can be resolved.
 
    When opening Unity 3D, click on Window -> Package Manager and, in the drop down that lets you select among the repositories, choose `In Project`. You should be able to see DT FairBid integrated.
 
@@ -48,7 +48,7 @@ The DT FairBid Unity Plugin takes care of adding the dependencies to the native 
 
 Before building the project, you need to import the FaidBid Unity Plugin. For this, you need to download DT FairBid Unity Plugin from [Digital Turbine's developer portal](https://developer.digitalturbine.com/hc/en-us/articles/360010151157-Unity-SDK-Integration).
 
-Remember to remove the DT FairBid dependency [here](https://github.com/fyber-engineering/fairbid-sample-app-unity/blob/master/Packages/manifest.json#L12) if importing the raw `.unitypackage` is your chosen build option.
+Remember to remove the DT FairBid dependency [here](https://github.com/DigitalTurbine/fairbid-sample-app-unity/blob/master/Packages/manifest.json#L12) if importing the raw `.unitypackage` is your chosen build option.
 
 With this project open in Unity, double-click the downloaded DT FairBid Unity Plugin package (`FairBidSDK.unitypackage`) file to import the DT FairBid Unity Plugin. When the *Import Unity Package* window opens, click `All` to select everything before importing.
 
@@ -64,14 +64,14 @@ You're now ready to run this project. Click `File -> Build and Run`. Unity will 
 ## Navigating the project code
 
 In the folder `Assets/Scenes/`, we have the following scenes:
-* SDK Initialization is located in [MainScene](https://github.com/fyber-engineering/fairbid-sample-app-unity/blob/master/Assets/Scenes/MainScene.cs)
-   * App id is defined [here](https://github.com/fyber-engineering/fairbid-sample-app-unity/blob/master/Assets/Scenes/MainScene.cs#L33)
-* Requesting Banner Ads - [BannerScene](https://github.com/fyber-engineering/fairbid-sample-app-unity/blob/master/Assets/Scenes/BannerScene.cs)
-   * Placement id for Banner Ads is defined [here](https://github.com/fyber-engineering/fairbid-sample-app-unity/blob/master/Assets/Scenes/BannerScene.cs#L31)
-* Requesting Interstitial Ads - [InterstitialScene](https://github.com/fyber-engineering/fairbid-sample-app-unity/blob/master/Assets/Scenes/InterstitialScene.cs)
-   * Placement id for Interstitial Ads is defined [here](https://github.com/fyber-engineering/fairbid-sample-app-unity/blob/master/Assets/Scenes/InterstitialScene.cs#L31)
-* Requesting Rewarded Ads - [RewardedScene](https://github.com/fyber-engineering/fairbid-sample-app-unity/blob/master/Assets/Scenes/RewardedScene.cs)
-   * Placement id for Rewarded Ads is defined [here](https://github.com/fyber-engineering/fairbid-sample-app-unity/blob/master/Assets/Scenes/RewardedScene.cs#L31)
+* SDK Initialization is located in [MainScene](https://github.com/DigitalTurbine/fairbid-sample-app-unity/blob/master/Assets/Scenes/MainScene.cs)
+   * App id is defined [here](https://github.com/DigitalTurbine/fairbid-sample-app-unity/blob/master/Assets/Scenes/MainScene.cs#L33)
+* Requesting Banner Ads - [BannerScene](https://github.com/DigitalTurbine/fairbid-sample-app-unity/blob/master/Assets/Scenes/BannerScene.cs)
+   * Placement id for Banner Ads is defined [here](https://github.com/DigitalTurbine/fairbid-sample-app-unity/blob/master/Assets/Scenes/BannerScene.cs#L31)
+* Requesting Interstitial Ads - [InterstitialScene](https://github.com/DigitalTurbine/fairbid-sample-app-unity/blob/master/Assets/Scenes/InterstitialScene.cs)
+   * Placement id for Interstitial Ads is defined [here](https://github.com/DigitalTurbine/fairbid-sample-app-unity/blob/master/Assets/Scenes/InterstitialScene.cs#L31)
+* Requesting Rewarded Ads - [RewardedScene](https://github.com/DigitalTurbine/fairbid-sample-app-unity/blob/master/Assets/Scenes/RewardedScene.cs)
+   * Placement id for Rewarded Ads is defined [here](https://github.com/DigitalTurbine/fairbid-sample-app-unity/blob/master/Assets/Scenes/RewardedScene.cs#L31)
 
 ## Mediation
 
